@@ -5,5 +5,5 @@ def reverse_each_word(string)
   sentence_as_array.each { |word|
     reversed_sentence << word.reverse + ' '
   }
-  reversed_sentence.trim
+  reversed_sentence[0..-2]
 end
